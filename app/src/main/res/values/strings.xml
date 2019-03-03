@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyKnowledgeBase</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="profile_image">Profile image</string>
+    <string name="subject_image_view">subject_image_view</string>
+    <string name="introduction_to_anroid">Introduction to anroid</string>
+    <string name="title_activity_code_display_dialog">CodeDisplayDialogActivity</string>
+    <string name="code">Click the copy button to copy the all code in once
+<![CDATA[
+        <?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:context=".activities.CodeDisplayDialogActivity" tools:showIn="@layout/activity_code_display_dialog">
+            <TextView android:id="@+id/code_display_tv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:background="@color/hs_background_color" android:inputType="text" android:text="this is the code to be displayed" />
+        </RelativeLayout>
+]]>
+</string>
+    <string name="points_to_remember">
+        <b>Do one thing and Do it well</b>\n
+        <b>Some point to remember:</b>\n
+        1.Focus on single functionality.\n
+        2.Think about your users.\n
+        3.Write down your idea\n
+        4.Make checklist of essentials\n
+        5.Utilize the tools in place of creating one.\n
+        6.Focus on UI and Animations\n
+        7.Easy to use\n
+        8.Focus on user experience(UX)\n
+    </string>
+    <string name="standard_components">Standard Components</string>
+    <string name="views_def"><b>Views:</b> Views are the most basic component of the user interface, and they extend the View Class. They always occupy a rectangular area and can handle both drawing to the screen and events such as being touched. Everything that is displayed on the screen utilizes a view.</string>
+    <string name="italic_text">Italic Text : TextView is used to display the data on the screen. The all the text displayed here is inside the TextView.</string>
+    <string name="bold_text">Bold Text : TextView is used to display the data on the screen. The all the text displayed here is inside the TextView.</string>
+    <string name="simple_text">Simple Text : TextView is used to display the data on the screen. The all the text displayed here is inside the TextView.</string>
+    <string name="text_view_image_button">Text view image button</string>
+    <string name="linkified_text">This is linkified text having email:electrophile172@gmail.com and phone number is +919991271280.</string>
+    <string name="spacing_text">This is wider text with padding. We can use different letter spacing for this.</string>
+</resources>

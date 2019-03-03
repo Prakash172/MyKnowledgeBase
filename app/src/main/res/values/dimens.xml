@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="card_height">170dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="six_dp">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sxzteen_sp">16sp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+</resources>

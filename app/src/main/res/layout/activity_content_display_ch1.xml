@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hs_background_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_padding"
+        tools:context=".activities.ContentDisplayCH1Activity">
+
+        <TextView
+            android:id="@+id/imp_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/sixteen_sp"
+            android:text="@string/points_to_remember" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/standard_components_cv"
+            style="@style/MKB.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imp_points">
+
+            <LinearLayout
+                android:id="@+id/standard_components_llo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/sixteen_dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/standard_components"
+                    android:textColor="@color/DarkRed"
+                    android:textSize="@dimen/sixteen_sp" />
+
+                <android.support.design.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="System Bars"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button" />
+
+                <android.support.design.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notifications"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button" />
+
+                <android.support.design.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Action Bar"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button" />
+
+                <android.support.design.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Split Action Bar"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button" />
+
+                <android.support.design.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Supporting Multiple Devices"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

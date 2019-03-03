@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile"
+        />
+    <item android:id="@+id/notification"
+        app:showAsAction="always"
+        android:icon="@drawable/notification_icon"
+        android:title="Notification">
+        <!--<menu>-->
+            <!--<item android:id="@+id/visited"-->
+                <!--android:icon="@drawable/visited_icon"-->
+                <!--android:title="Visited"/>-->
+            <!--<item android:id="@+id/navigate"-->
+                <!--android:icon="@drawable/navigate_icon"-->
+                <!--android:title="Navigate"/>-->
+        <!--</menu>-->
+    </item>
+
+    <item android:id="@+id/setting"
+        android:icon="@drawable/settings_icon"
+        android:title="Profile"/>
+
+</menu>
